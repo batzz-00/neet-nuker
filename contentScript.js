@@ -14,7 +14,7 @@
   
   
       const triggerComment = status => {
-        let parentStyle = status ? "height: 10px; overflow: hidden" : ""
+        let parentStyle = status ? "height: 20px; overflow: hidden" : ""
         let style = status ? "height: 0px; overflow: hidden" : ""
         if(modCommentChildren.children.length === 0){
           modComment.parentElement.setAttribute("style", style);
